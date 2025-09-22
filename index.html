@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HealthBot</title>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Talk to HealthBot</h1>
+    <df-messenger
+      chat-title="HealthBot"
+      agent-id="ff4f4016-1485-44d3-aa3f-8356057ea017"
+      language-code="en">
+    </df-messenger>
+  </div>
+</body>
+</html>
